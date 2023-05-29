@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#backGroundImg {
+    height: 100vh;
+    width: 100vw;
+}
+
+#topWrapper {
+    position: relative;
+}
+
+#navbar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: white; */
+}
+
+#onImg {
+    position: absolute;
+    margin-top: 30px;
+    padding-left: 30px;
+    left:0px;
+    top: 210px;
+}
+
+.topButton {
+    border-radius: 20px;
+    font-weight: bold;
+    width: 105px;
+}
+
+#logIn {
+    background-color: white;
+    color: black;
+    margin-right: 5px;
+}
+
+#signUp {
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+}
+
+.formCol {
+    margin: 5px;
+    padding: 0px;
+}
+
+.form-control {
+    border-radius: 0px;
+    height: 60px;
+}
+
+.formBtn {
+    height: 60px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+#formUnderline {
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+}
+
+#formUnderline a {
+    color: black;
+}
+
+#mainBody {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#mainBody .col-4 {
+    margin: 0px;
+    padding: 0px;
+    /* border-color: black;
+    border-style: dotted; */
+}
+
+.cards {
+    color:black;
+    text-decoration: none;
+    font-weight: 650;
+}
+
+#mainBody a h2 {
+    margin-top: 10px;
+}
+
+#mainBody a div {
+    text-decoration: underline;
+}
+
+.bodyImg {
+    height: 230px;
+    width: 31vw;
+}
+
+#gMap {
+    height: 55vh;
+    width: 96vw;
+    margin-bottom: 10px;
+}
+
+.cityName {
+    display: block;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#divider {
+    width: 95vw;
+}
+
+.footer {
+    padding-top: 50px;
+}
+
+.downloadLinks {
+    padding-top: 180px;
+    display: inline-block;
+}
+
+.footer .cityName:hover{
+    text-decoration: underline;
+}
+
+.mediaIcons {
+    margin-right: 20px;
+    height: 15px;
+    width: 15px;
+}
+
+#endTextContainer {
+    display: flex;
+}
+
+.endText {
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.endText:hover {
+    text-decoration: underline;
+}
